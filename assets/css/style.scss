@@ -35,3 +35,128 @@ p {
 }
 
 /* Main Css */
+
+/* Menu */
+.menu {
+    .container-fluid {
+        border-bottom: 4px solid #FF9900;
+
+        nav {
+            .navbar-collapse {
+                ul {
+                    li {
+                        a {
+                            font-weight: 400;
+                            font-size: 18px;
+                            color: #808080;
+                        }
+
+                        padding: 0 24px;
+                    }
+                }
+            }
+        }
+
+        .login-register-language {
+
+            p,
+            div {
+                margin: 0 16px;
+                margin-bottom: 0;
+            }
+
+            p a {
+                font-weight: 400;
+                font-size: 18px;
+                color: #808080;
+            }
+
+            p:nth-child(1) {
+                border-right: 1px solid #E8E9EC;
+                padding-right: 25px;
+            }
+
+            p:nth-child(2) {
+                a {
+                    color: #fff;
+                }
+
+                border-radius: 20px;
+                background: linear-gradient(94.58deg, #FF8A00 0%, #FF5906 101.16%);
+                padding: .5rem 1rem .2rem 1rem;
+            }
+
+            div {
+                border: 2px solid #E8E9EC;
+                border-radius: 4px;
+                padding: .1rem 1rem;
+
+                i {
+                    margin: 3px 0 0 3px;
+                    color: #808080;
+                }
+            }
+        }
+    }
+}
+
+
+/* Footer */
+.footer {
+    margin-top: 124px;
+    background-color: #464646;
+    height: auto;
+
+    .container-xl {
+
+        .style-footer {
+            justify-content: space-between;
+
+            .desc {
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #fff;
+                    margin-top: 24px;
+                }
+            }
+
+            .about-us {
+                display: flex;
+                justify-content: space-between;
+
+                .company,
+                .policies,
+                .support {
+                    h1 {
+                        text-decoration: underline;
+                        font-weight: 700;
+                        font-size: 16px;
+                        color: #fff;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        .line {
+            height: 2px;
+            background-color: #fff;
+        }
+
+        .info {
+            margin-top: 32px;
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                color: #fff;
+            }
+        }
+    }
+}

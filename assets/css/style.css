@@ -34,4 +34,117 @@ p {
 }
 
 /* Main Css */
+/* Menu */
+.menu .container-fluid {
+  border-bottom: 4px solid #FF9900;
+}
+
+.menu .container-fluid nav .navbar-collapse ul li {
+  padding: 0 24px;
+}
+
+.menu .container-fluid nav .navbar-collapse ul li a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #808080;
+}
+
+.menu .container-fluid .login-register-language p,
+.menu .container-fluid .login-register-language div {
+  margin: 0 16px;
+  margin-bottom: 0;
+}
+
+.menu .container-fluid .login-register-language p a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #808080;
+}
+
+.menu .container-fluid .login-register-language p:nth-child(1) {
+  border-right: 1px solid #E8E9EC;
+  padding-right: 25px;
+}
+
+.menu .container-fluid .login-register-language p:nth-child(2) {
+  border-radius: 20px;
+  background: linear-gradient(94.58deg, #FF8A00 0%, #FF5906 101.16%);
+  padding: .5rem 1rem .2rem 1rem;
+}
+
+.menu .container-fluid .login-register-language p:nth-child(2) a {
+  color: #fff;
+}
+
+.menu .container-fluid .login-register-language div {
+  border: 2px solid #E8E9EC;
+  border-radius: 4px;
+  padding: .1rem 1rem;
+}
+
+.menu .container-fluid .login-register-language div i {
+  margin: 3px 0 0 3px;
+  color: #808080;
+}
+
+/* Footer */
+.footer {
+  margin-top: 124px;
+  background-color: #464646;
+  height: auto;
+}
+
+.footer .container-xl .style-footer {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .container-xl .style-footer .desc p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 24px;
+}
+
+.footer .container-xl .style-footer .about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .container-xl .style-footer .about-us .company h1,
+.footer .container-xl .style-footer .about-us .policies h1,
+.footer .container-xl .style-footer .about-us .support h1 {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer .container-xl .style-footer .about-us .company p,
+.footer .container-xl .style-footer .about-us .policies p,
+.footer .container-xl .style-footer .about-us .support p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer .container-xl .line {
+  height: 2px;
+  background-color: #fff;
+}
+
+.footer .container-xl .info {
+  margin-top: 32px;
+}
+
+.footer .container-xl .info p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
